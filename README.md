@@ -25,14 +25,11 @@ Nous utilisserons un mix entre la méthodologie 42 et un cours "normal"; vous de
 
 Ce cours sera décomposé en 4 grandes parties:
 
-* *Le fonctionnement de base de git*
-  Ici vous créerez votre premier repository et aprendrez a vous en servir de manière basique, en sauvegardant votre travail de manière régulière.
+* **Le fonctionnement de base de git**: Ici vous créerez votre premier repository et aprendrez a vous en servir de manière basique, en sauvegardant votre travail de manière régulière.
 
-* *Le versionning*
-  Dans cette partie, vous apprendrez à naviguer entre les différentes versions de votre code.
+* **Le versionning**: Dans cette partie, vous apprendrez à naviguer entre les différentes versions de votre code.
 
-* *Les branches*
-  Une nouvelle feature dans votre code? Ne cassez pas ce qui fonctionne déjà et développez votre feature en toute sécurité.
+* **Les branches**: Une nouvelle feature dans votre code? Ne cassez pas ce qui fonctionne déjà et développez votre feature en toute sécurité.
 
-* *Les merge*
-  Fuuuuu-sion! Découvrez comment fusionner vos branches entre elles une fois que tout fonctionne.
+* **Les merge**: Fuuuuu-sion! Découvrez comment fusionner vos branches entre elles une fois que tout fonctionne.
+
