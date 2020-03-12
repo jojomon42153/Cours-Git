@@ -35,9 +35,24 @@ Ce cours sera décomposé en 4 grandes parties:
 
 Et enfin une **cheatsheet** dans laquelle vous irez piocher vos commandes pour les exercices.
 
-Maintenant, fais la commande pour passer dans la branche partie1 et ainsi voir les modifications que j'ai apporté à ce fichier (wut? c'est quoiiii? omg je suis perdu! => lis plus bas, applique, tu comprendras en partie 3)
+## Partie1: Add, Commit, Push
+
+Bravo! Tu viens de changer de branche. Tu pourras répéter l'opération pour aller sur les parties suivantes une fois celle-la terminée. Ici, tu vois donc que ce fichier n'a plus du tout la même tête, et tu pourras voir que de nouveaux fichiers sont apparus.
+
+Exercice 0: Un nouveau repo, si c'est pas beau!
+Direction github! va sur ton compte et crée-toi un nouveau repository, puis clone-le sur ta machine.
+
+Exercice 1: Hello world!
+Code un hello world (programme qui une fois lancé affiche un hello world) dans le language de ton choix, ajoute les fichiers, commit le avec le bon message (voir la partie norme des commits), puis push le tout.
+
+Exercice 2:
 
 ## Lexique des commandes
+
+### La base
+
+* `git clone https://github.com/mon_pseudo_github/ZeBestRepoEver.git`: ~télécharge~ clone le repository git de l'adresse pasée en paramètre.
+* 
 
 ### Les branches
 
