@@ -1,2 +1,4 @@
-# cours-git
+# Cours-git
 Cours git signes et formations
+
+## Installation
