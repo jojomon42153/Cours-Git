@@ -52,8 +52,44 @@ Exercice 2:
 ### La base
 
 * `git clone https://github.com/mon_pseudo_github/ZeBestRepoEver.git`: ~télécharge~ clone le repository git de l'adresse pasée en paramètre.
-* 
 
 ### Les branches
 
 * `git checkout nom_de_ma_branche`: change de branche pour aller sur "nom_de_ma_branche"
+
+## Norme des commits
+
+Et oui, puisqu'on parle d'entreprise, on parle aussi de norme ou de conventions! Ici, on va apprendre a bien nommer ses commits puisqu'ils font office de présentation des modifications. Imaginez-vous chercher un commit en particulier, et trouver des messages du type "LOL" ou "ya plein de trucs" ou "push" ou quoi que ce soit d'autre qui n'explique en rien ce qui a été fait!
+En soi, il peut y avoir une norme propre a l'entreprise dans laquelle vous travaillez ou pas du tout de norme.
+Je vous en propose 2 ici, la mienne (quand c'est un petit projet) + celle d'angular (quand le projet est beaucoup plus volumineux):
+
+### La mienne
+
+``` jojoCode
+
+    [mon_nom]
+    -fichier_en_question1 => nature_de_la_modification: description
+    -fichier_en_question2 => natu...
+
+    // ou si plusieurs fichiers sont affectés par une meme modification
+
+    [mon_nom]
+    -nature_de_la_modification <fichiers> => description
+
+```
+
+Nature de la modification:
+
+* fix = réparation d'un bug
+* add = ajout d'un truc (add feat, add file, add tout court, on s'en fout tant que ça parle)
+* del/rm = suppression d'un truc
+* refactor = change la tete du code sans changer le fonctionnement
+* comment = ajoute des commentaires
+* perf = améliore les perf
+* ... regarde la norme angular plus bas il y a plein de bonnes idées (dans ta tete aussi il y en a peut etre)
+  
+Exemple: fais un `git log` dans ton terminal et tu verras mes commits sur cette branche. Appuye sur Q pour quitter le log, et sur les fleches pour te déplacer dedans.
+
+### Angular
+
+[Ce site](https://buzut.net/git-bien-nommer-ses-commits/) l'expliquera mieux que moi:
