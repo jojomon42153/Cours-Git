@@ -25,7 +25,7 @@ Nous utilisserons un mix entre la méthodologie 42 et un cours "normal"; vous de
 
 Ce cours sera décomposé en 4 grandes parties:
 
-* **Le fonctionnement de base de git**: Ici vous créerez votre premier repository et aprendrez a vous en servir de manière basique, en sauvegardant votre travail de manière régulière.
+* **Add, Commit, Push**: Ici vous créerez votre premier repository et aprendrez a vous en servir de manière basique, en sauvegardant votre travail de manière régulière.
 
 * **Le versionning**: Dans cette partie, vous apprendrez à naviguer entre les différentes versions de votre code.
 
