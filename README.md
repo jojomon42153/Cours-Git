@@ -21,15 +21,24 @@ Bref, pour résumer, imaginez un bouton "sauvegarde" avant un boss de jeu vidéo
 
 ## Sommaire
 
-Nous utilisserons un mix entre la méthodologie 42 et un cours "normal"; vous devrez réaliser une série d'exercices dont les connaissances vous auront été expliquées brièvement à l'oral. Pour chaque exercice vous aurez aussi une base de connaissances dans ce fichier. Ainsi, vous pourrez garder ce cours et vous en servir comme une cheat sheet, et/ou refaire les exercices chez vous.
+Nous utiliserons un mix entre la méthodologie 42 et un cours "normal"; vous devrez réaliser une série d'exercices dont les connaissances vous auront été expliquées brièvement à l'oral. Pour chaque exercice vous aurez aussi une base de connaissances dans ce fichier. Ainsi, vous pourrez garder ce cours et vous en servir comme une CheatSheet, et/ou refaire les exercices chez vous.
 
 Ce cours sera décomposé en 4 grandes parties:
 
-* **Add, Commit, Push**: Ici vous créerez votre premier repository et aprendrez a vous en servir de manière basique, en sauvegardant votre travail de manière régulière.
+* partie1 **Add, Commit, Push**: Ici vous créerez votre premier repository et aprendrez a vous en servir de manière basique, en sauvegardant votre travail de manière régulière.
 
-* **Le versionning**: Dans cette partie, vous apprendrez à naviguer entre les différentes versions de votre code.
+* partie2 **Le versionning**: Dans cette partie, vous apprendrez à naviguer entre les différentes versions de votre code.
 
-* **Les branches**: Une nouvelle feature dans votre code? Ne cassez pas ce qui fonctionne déjà et développez votre feature en toute sécurité.
+* partie3 **Les branches**: Une nouvelle feature dans votre code? Ne cassez pas ce qui fonctionne déjà et développez votre feature en toute sécurité.
 
-* **Les merge**: Fuuuuu-sion! Découvrez comment fusionner vos branches entre elles une fois que tout fonctionne.
+* partie4 **Les merge**: Fuuuuu-sion! Découvrez comment fusionner vos branches entre elles une fois que tout fonctionne.
 
+Et enfin une **cheatsheet** dans laquelle vous irez piocher vos commandes pour les exercices.
+
+Maintenant, fais la commande pour passer dans la branche partie1 et ainsi voir les modifications que j'ai apporté à ce fichier (wut? c'est quoiiii? omg je suis perdu! => lis plus bas, applique, tu comprendras en partie 3)
+
+## Lexique des commandes
+
+### Les branches
+
+* `git checkout nom_de_ma_branche`: change de branche pour aller sur "nom_de_ma_branche"
