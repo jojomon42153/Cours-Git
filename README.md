@@ -35,38 +35,9 @@ Ce cours sera décomposé en 4 grandes parties:
 
 Et enfin une **cheatsheet** dans laquelle vous irez piocher vos commandes pour les exercices.
 
-## Partie1: Add, Commit, Push
+## Partie2 : Le versionning
 
-[Lien pour lire le markdown](https://github.com/jojomon42153/cours-git/blob/level1/README.md)
-
-Bravo! Tu viens de changer de branche. Tu pourras répéter l'opération pour aller sur les parties suivantes une fois celle-la terminée. Si tu souhaites retourner voir la branche principale, elle s'appelle master donc... `git checkout master`. Ici, tu vois donc que ce fichier n'a plus du tout la même tête, et tu pourras aussi voir que de nouveaux fichiers sont apparus.
-
-### Exercice 0: Un nouveau repo, si c'est pas beau!
-
-Tu arrives juste en stage et ton nouveau patron te demande de créer un nouveau projet qui va servir a dire bonjour aux personnes qui entrent dans le batîment.
-Direction github! va sur ton compte et crée-toi un nouveau repository, puis clone-le sur ta machine. Les prérequis pour créer ton repo sont en photo dans les images.
-
-### Exercice 1: hello world
-
-Code un hello world (programme qui une fois lancé affiche "hello world", au caractère près) dans le language de ton choix, add les fichiers, commit avec le bon message (voir la partie norme des commits après le lexique), puis push le tout. Montre-moi ton github une fois que c'est fait.
-
-### Exercice 2: Hello World!
-
-Ton patron vient de te passer un savon parceque tu as oublié les majuscules et le point d'exclamation. Ton programme doit maintenant sortir un "Hello World!". Modifie-le, add les modifications, commit, puis push le tout et appelle-moi.
-
-### Exercice 3: Readme? c'est quoi ce fichier?
-
-Ton patron revient te voir, te félicite pour ta nouvelle orthographe, mais exige que tu supprimes ton Readme parceque "de toute manière il est vide". Bla, bla, bla et appelle-moi, tu connais la musique maintenant.
-
-### Exercice 4: Changement de machine
-
-En rentrant chez toi tu t'est rendu compte que tu avais échangé ton ordi avec celui de ton collègue, et ton patron t'appelle pour te dire qu'il veut que tu remettes un README.md avec indiqué dedans le nom du projet, et comment l'installer/le lancer. Exemple: <https://github.com/jojomon42153/LIBFT>
-Tu prends donc l'ordi de ton binôme (lui prendra le tien), tu clones ton projet, tu ajoutes un README.md convenable et tu push
-("Mais il sert a rien cet exo" => sisi, tkt, regarde l'exo suivant).
-
-### Exercice 5: Retour au travail
-
-Le lendemain matin, tu récupères donc ton ordi auprès de ton collègue. Il te faut maintenant récupérer sur ta machine les modifications que tu as push la veille, sans faire de "git clone".
+[Lien pour lire le markdown](https://github.com/jojomon42153/cours-git/blob/level2/README.md)
 
 ## Lexique des commandes
 
@@ -120,4 +91,4 @@ Exemple: fais un `git log` dans ton terminal et tu verras mes commits sur cette 
 
 ### Angular
 
-[Ce site](https://buzut.net/git-bien-nommer-ses-commits/) l'expliquera mieux que moi:
+[Ce site](https://buzut.net/git-bien-nommer-ses-commits/) l'expliquera mieux que moi.
