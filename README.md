@@ -43,10 +43,6 @@ Et enfin une **cheatsheet** dans laquelle vous irez piocher vos commandes pour l
 
 Mon stagiaire a fait n'importe quoi **après avoir ajouté cet exercice**! Trouve le ou les exercices dans les précédents commits.
 
-### Exercice 1:
-
-Bah non je vais pas cacher ca dans le premier commit enfin :D
-
 ## Lexique des commandes
 
 ### La base
