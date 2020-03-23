@@ -45,7 +45,7 @@ Mon stagiaire a fait n'importe quoi **après avoir ajouté cet exercice**! Trouv
 
 ### Exercice 1:
 
-EEEEEEt non! Tu est remonté trop loin! Lis bien l'énoncé.
+Hahaaaa! C'est pas ici.
 
 ## Lexique des commandes
 
