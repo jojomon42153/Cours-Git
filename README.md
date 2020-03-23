@@ -45,7 +45,7 @@ Mon stagiaire a fait n'importe quoi **après avoir ajouté cet exercice**! Trouv
 
 ### Exercice 1:
 
-Hééééé mais c'est que... c'est pas la!
+Haaaaa tu vas bien t'amuser dis donc
 
 ## Lexique des commandes
 
