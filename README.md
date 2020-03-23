@@ -41,11 +41,12 @@ Bravo! Tu viens de changer de branche. Tu pourras répéter l'opération pour al
 
 ### Exercice 0: Un nouveau repo, si c'est pas beau!
 
+Tu arrives juste en stage et ton nouveau patron te demande de créer un nouveau projet qui va servir a dire bonjour aux personnes qui entrent dans le batîment.
 Direction github! va sur ton compte et crée-toi un nouveau repository, puis clone-le sur ta machine. Les prérequis pour créer ton repo sont en photo dans les images.
 
 ### Exercice 1: hello world
 
-Code un hello world (programme qui une fois lancé affiche "hello world", ni plus, ni moins) dans le language de ton choix, ajoute les fichiers, commit-le avec le bon message (voir la partie norme des commits après le lexique), puis push le tout. Montre-moi ton github une fois que c'est fait.
+Code un hello world (programme qui une fois lancé affiche "hello world", au caractère près) dans le language de ton choix, add les fichiers, commit avec le bon message (voir la partie norme des commits après le lexique), puis push le tout. Montre-moi ton github une fois que c'est fait.
 
 ### Exercice 2: Hello World!
 
@@ -58,12 +59,12 @@ Ton patron revient te voir, te félicite pour ta nouvelle orthographe, mais exig
 ### Exercice 4: Changement de machine
 
 En rentrant chez toi tu t'est rendu compte que tu avais échangé ton ordi avec celui de ton collègue, et ton patron t'appelle pour te dire qu'il veut que tu remettes un README.md avec indiqué dedans le nom du projet, et comment l'installer/le lancer. Exemple: <https://github.com/jojomon42153/LIBFT>
-Tu prends donc l'ordi de ton collègue(lui prendra le tien), tu clones ton projet, tu ajoutes un README.md convenable et tu push
+Tu prends donc l'ordi de ton binôme (lui prendra le tien), tu clones ton projet, tu ajoutes un README.md convenable et tu push
 ("Mais il sert a rien cet exo" => sisi, tkt, regarde l'exo suivant).
 
 ### Exercice 5: Retour au travail
 
-Le lendemain matin, tu récupères donc ton ordi auprès de ton collègue. Il te faut maintenant récupérer sur ta machine les modifications que tu as push la veille.
+Le lendemain matin, tu récupères donc ton ordi auprès de ton collègue. Il te faut maintenant récupérer sur ta machine les modifications que tu as push la veille, sans faire de "git clone".
 
 ## Lexique des commandes
 
@@ -75,7 +76,7 @@ Le lendemain matin, tu récupères donc ton ordi auprès de ton collègue. Il te
 * `git rm fichier_que_je_veux_supprimer`: supprime un fichier du repo au prochain commit
 * `git commit -m "mon message de commit"`: commit(sauvegarde) les modifications faites et ayant été ajoutées au commit via `git add` ou `git rm`
 * `git push`: envoie tous les commits sur le repertoire distant
-* `git pull`: récupère les commits du le repo distant qui ne sont pas présent en local. Assurez-vous de ne pas avoir fait de modifications sous peine de vous exposer, en cas de modification du meme fichier, aux "merge conflicts" => partie 4.
+* `git pull`: "Récupère les derniers commits sur le repo distant qui ne sont pas présent en local. Assurez-vous de ne pas avoir fait de modifications en local avant, sous peine de vous exposer, en cas de modification du meme fichier, aux "merge conflicts" => partie 4 et si ca t'arrive maintenant, appelle-moi.
 
 ### Les branches
 
@@ -111,9 +112,9 @@ Nature de la modification:
 * refactor = change la tete du code sans changer le fonctionnement
 * comment = ajoute des commentaires
 * perf = améliore les perf
-* ... regarde la norme angular plus bas il y a plein de bonnes idées (dans ta tete aussi il y en a peut etre)
+* ... regarde la norme angular plus bas il y a plein de bonnes idées (dans ta tete aussi il y en a peut-être)
   
-Exemple: fais un `git log` dans ton terminal et tu verras mes commits sur cette branche. Appuye sur Q pour quitter le log, et sur les flèches pour te déplacer dedans.
+Exemple: fais un `git log` dans ton terminal et tu verras mes commits sur cette branche. Appuye sur les flèches pour te déplacer dedans, et sur Q pour quitter le log.
 
 ### Angular
 
