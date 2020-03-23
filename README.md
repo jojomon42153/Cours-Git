@@ -45,7 +45,7 @@ Mon stagiaire a fait n'importe quoi **après avoir ajouté cet exercice**! Trouv
 
 ### Exercice 1:
 
-Hahaha t'y as cru hein?
+Bah non je vais pas cacher ca dans le premier commit enfin :D
 
 ## Lexique des commandes
 
