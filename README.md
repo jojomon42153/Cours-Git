@@ -37,6 +37,8 @@ Et enfin une **cheatsheet** dans laquelle vous irez piocher vos commandes pour l
 
 ## Partie1: Add, Commit, Push
 
+[Lien pour lire le markdown](https://github.com/jojomon42153/cours-git/blob/level1/README.md)
+
 Bravo! Tu viens de changer de branche. Tu pourras répéter l'opération pour aller sur les parties suivantes une fois celle-la terminée. Si tu souhaites retourner voir la branche principale, elle s'appelle master donc... `git checkout master`. Ici, tu vois donc que ce fichier n'a plus du tout la même tête, et tu pourras aussi voir que de nouveaux fichiers sont apparus.
 
 ### Exercice 0: Un nouveau repo, si c'est pas beau!
@@ -70,13 +72,13 @@ Le lendemain matin, tu récupères donc ton ordi auprès de ton collègue. Il te
 
 ### La base
 
-* `git clone https://github.com/mon_pseudo_github/ZeBestRepoEver.git`: ~télécharge~ clone le repository git de l'adresse pasée en paramètre.
+* `git clone https://github.com/mon_pseudo_github/ZeBestRepoEver.git`: ~télécharge~ clone le repertoire git de l'adresse passée en paramètre.
 * `git status`: affiche où l'on en est dans les commits (fichiers modifiés, supprimés, ajoutés, ou tout simplement si on a des commits a push)
-* `git add fichier`: ajoute un nouveau fichier ou un fichier modifié au prochain commit
+* `git add fichier`: ajoute un nouveau fichier ou les modification sur un fichier déjà suivi au prochain commit
 * `git rm fichier_que_je_veux_supprimer`: supprime un fichier du repo au prochain commit
 * `git commit -m "mon message de commit"`: commit(sauvegarde) les modifications faites et ayant été ajoutées au commit via `git add` ou `git rm`
 * `git push`: envoie tous les commits sur le repertoire distant
-* `git pull`: "Récupère les derniers commits sur le repo distant qui ne sont pas présent en local. Assurez-vous de ne pas avoir fait de modifications en local avant, sous peine de vous exposer, en cas de modification du meme fichier, aux "merge conflicts" => partie 4 et si ca t'arrive maintenant, appelle-moi.
+* `git pull`: Récupère les derniers commits sur le repo distant qui ne sont pas présent en local. Assurez-vous de ne pas avoir fait de modifications en local avant, sous peine de vous exposer, en cas de modification du meme fichier, aux "merge conflicts" => partie 4 et si ca t'arrive maintenant, appelle-moi.
 
 ### Les branches
 
