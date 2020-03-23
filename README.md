@@ -49,7 +49,21 @@ Et enfin une **cheatsheet** dans laquelle vous irez piocher vos commandes pour l
 * `git rm fichier_que_je_veux_supprimer`: supprime un fichier du repo au prochain commit
 * `git commit -m "mon message de commit"`: commit(sauvegarde) les modifications faites et ayant été ajoutées au commit via `git add` ou `git rm`
 * `git push`: envoie tous les commits sur le repertoire distant
-* `git pull`: Récupère les derniers commits sur le repo distant qui ne sont pas présent en local. Assurez-vous de ne pas avoir fait de modifications en local avant, sous peine de vous exposer, en cas de modification du meme fichier, aux "merge conflicts" => partie 4 et si ca t'arrive maintenant, appelle-moi.
+* `git pull`: Récupère les derniers commits sur le repo distant qui ne sont pas présent en local. Assurez-vous de ne pas avoir fait de modifications en local avant, sous peine de vous exposer, en cas de modification du meme fichier, aux "merge conflicts" => partie 4.
+
+### Naviguer dans les commits
+
+* `git log`: Affiche un log des commits précédents: pour chaque commit, on retrouve:
+``` jojoCode
+
+    commit [code/référence du commit] (quelle branche est sur ce commit)
+    Author: nom_de_l'auteur <mail de l'auteur>
+    Date: date_a_laquelle_le_commit_a_ete_fait
+
+    [message du commit (voir ci dessous la norme de ces messages)]
+
+```
+* `git checkout code_du_commit`: Passe sur la version du projet relative au code de commit passé en paramètre.
 
 ### Les branches
 
