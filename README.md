@@ -45,7 +45,7 @@ Mon stagiaire a fait n'importe quoi **après avoir ajouté cet exercice**! Trouv
 
 ### Exercice 1:
 
-Haaaaa tu vas bien t'amuser dis donc
+Bah non c'est toi qui va te faire virer!
 
 ## Lexique des commandes
 
