@@ -27,7 +27,7 @@ Ce cours sera décomposé en 4 grandes parties:
 
 * partie1 **Add, Commit, Push**: Ici vous créerez votre premier repository et aprendrez a vous en servir de manière basique, en sauvegardant votre travail de manière régulière.
 
-* partie2 **Le versionning**: Dans cette partie, vous apprendrez à naviguer entre les différentes versions de votre code.
+* partie2 **Le versionning**: Dans cette partie, vous apprendrez à naviguer entre les différentes versions/commits de votre code.
 
 * partie3 **Les branches**: Une nouvelle feature dans votre code? Ne cassez pas ce qui fonctionne déjà et développez votre feature en toute sécurité.
 
@@ -38,6 +38,14 @@ Et enfin une **cheatsheet** dans laquelle vous irez piocher vos commandes pour l
 ## Partie2 : Le versionning
 
 [Lien pour lire le markdown](https://github.com/jojomon42153/cours-git/blob/level2/README.md)
+
+### Exercice 0:
+
+Mon stagiaire a fait n'importe quoi **après avoir ajouté cet exercice**! Trouve le ou les exercices dans les précédents commits.
+
+### Exercice 1:
+
+EEEEEEt non! Tu est remonté trop loin! Lis bien l'énoncé.
 
 ## Lexique des commandes
 
@@ -54,6 +62,7 @@ Et enfin une **cheatsheet** dans laquelle vous irez piocher vos commandes pour l
 ### Naviguer dans les commits
 
 * `git log`: Affiche un log des commits précédents: pour chaque commit, on retrouve:
+
 ``` jojoCode
 
     commit [code/référence du commit] (quelle branche est sur ce commit)
@@ -63,6 +72,7 @@ Et enfin une **cheatsheet** dans laquelle vous irez piocher vos commandes pour l
     [message du commit (voir ci dessous la norme de ces messages)]
 
 ```
+
 * `git checkout code_du_commit`: Passe sur la version du projet relative au code de commit passé en paramètre.
 
 ### Les branches
