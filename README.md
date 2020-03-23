@@ -1,5 +1,6 @@
 # Cours-git
 
+Ce fichier est écrit en [Markdown](https://fr.wikipedia.org/wiki/Markdown). Du coup, pour le lire correctement clique suis [ce lien](https://github.com/jojomon42153/cours-git)
 Cours git signes et formations
 
 !!! Pro tip: Git, c'est sombre et mystique au début, c'est pourquoi il est fortement recommandé de vous en servir pour TOUS vos prochains projets, surtout ceux qui se réalisent en équipe, afin que git devienne naturel chez vous. Par exemple, je m'en sers moi-même pour noter, ranger, classer tous les cours/conférences que je suis ammené à suivre pendant mes formations. POURQUOI s'embêter avec ca? Car avec de la pratique, utiliser cet outil sera comme respirer pour vous, et un pro git est très souvent apprécié en entreprise (vu que ca parraît sombre, mystérieux et magique pour ceux qui ne savent pas l'utiliser). !!!
