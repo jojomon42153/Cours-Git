@@ -45,7 +45,7 @@ Mon stagiaire a fait n'importe quoi **après avoir ajouté cet exercice**! Trouv
 
 ### Exercice 1:
 
-Raté! pas ici.
+TOUJOURS PAS :p
 
 ## Lexique des commandes
 
