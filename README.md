@@ -45,7 +45,7 @@ Mon stagiaire a fait n'importe quoi **après avoir ajouté cet exercice**! Trouv
 
 ### Exercice 1:
 
-Bravo, tu as trouvé le bon commit. Tu vas devoir trouver le code dans ce dossier pour passer a la suite.
+NOPE.
 
 ## Lexique des commandes
 
