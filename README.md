@@ -39,10 +39,15 @@ Et enfin une **cheatsheet** dans laquelle vous irez piocher vos commandes pour l
 
 [Lien pour lire le markdown](https://github.com/jojomon42153/cours-git/blob/level3/README.md)
 Ca y est, on rentre dans le dur, la véritable première utilité de git: Les branches.
+Dans les prochains exercices vous allez travailler sur le même ZeBestRepoEver en binôme.
 
-### Exercice 0: Let's get higher
+### Exercice 0: Let's code together
 
+Votre patron vous prend en réunion pour vous demander de bosser à 2 sur le même projet "Hello World!"
+L'un de vous va devoir faire une fonction qui affiche la date à la suite du hello world et l'autre une fonction qui affiche une licorne en [Ascii art](https://fr.wikipedia.org/wiki/Art_ASCII) => google est ton ami pour en trouver une.
+Il vous signale aussi qu'absolument rien ne doit être commit ou push, il (je) veut voir votre code avant.
 
+### Exercice 1: Branch?
 
 ## Lexique des commandes
 
