@@ -35,13 +35,14 @@ Ce cours sera décomposé en 4 grandes parties:
 
 Et enfin une **cheatsheet** dans laquelle vous irez piocher vos commandes pour les exercices.
 
-## Partie2 : Le versionning
+## Partie2 : Les branches
 
-[Lien pour lire le markdown](https://github.com/jojomon42153/cours-git/blob/level2/README.md)
+[Lien pour lire le markdown](https://github.com/jojomon42153/cours-git/blob/level3/README.md)
+Ca y est, on rentre dans le dur, la véritable première utilité de git: Les branches.
 
-### Exercice 0:
+### Exercice 0: Let's get higher
 
-Mon stagiaire a fait n'importe quoi **après avoir ajouté cet exercice**! Trouve le ou les exercices dans les précédents commits.
+
 
 ## Lexique des commandes
 
@@ -73,7 +74,13 @@ Mon stagiaire a fait n'importe quoi **après avoir ajouté cet exercice**! Trouv
 
 ### Les branches
 
-* `git checkout nom_de_ma_branche`: change de branche pour aller sur "nom_de_ma_branche"
+* `git branch nom_de_la_branche` => crée une branche en local.
+* `git checkout nom_de_ma_branche` => change de branche pour aller sur "nom_de_ma_branche". La branche principale s'appelle "master" (c'est la branche maître)
+* `git checkout -b nom_de_ma_branche` => fusion des 2 commandes ci-dessus. On crée une branche, d'où le "-b", puis on passe dessus.
+* `git branch -d nom_de_ma_branche` => "-d" comme delete. On supprime la branche LOCALE. Il faut un "-D" pour supprimer la branche DISTANTE aussi.
+* `git push --set-upstream origin nom_de_ma_branche` => Cela va push votre toute nouvelle branche en local sur le repo distant. Cette commande barbare n'est pas a retenir: en effet, git vous dira de la lancer si vous esssayez de push normalement une branche créée en local.
+* `git stash` => Enlève toutes les modifications depuis le dernier commit et les sauvegarde. C'est comme quand on fait "clic droit + couper" sur les dernières modifications. On s'en sert pour sauvegarder temporairement des modifications, par exemple si vous voulez pull alors que vous avez modifié des choses, ou alors pour changer les modifications de branche (voir la commande stash apply ci-dessous)
+* `git stash apply` => Si stash coupe, stash apply colle. Cette commande va donc appliquer les modifications qu'on aura stashé auparavant. De cette manière, par exemple, si on fait des modifications sur master alors qu'on doit les faire sur une autre branche, on: stash, checkout sur la branche ou l'on veut appliquer les modifs, puis stash apply.
 
 ## Norme des commits
 
