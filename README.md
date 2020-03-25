@@ -43,11 +43,20 @@ Dans les prochains exercices vous allez travailler sur le même ZeBestRepoEver e
 
 ### Exercice 0: Let's code together
 
-Votre patron vous prend en réunion pour vous demander de bosser à 2 sur le même projet "Hello World!"
+Votre patron vous envoie chaqu'un un mail pendant le confinement pour vous demander de bosser à 2 sur le même projet "Hello World!"
 L'un de vous va devoir faire une fonction qui affiche la date à la suite du hello world et l'autre une fonction qui affiche une licorne en [Ascii art](https://fr.wikipedia.org/wiki/Art_ASCII) => google est ton ami pour en trouver une.
-Il vous signale aussi qu'absolument rien ne doit être commit ou push, il (je) veut voir votre code avant.
+Il vous signale aussi qu'absolument rien ne doit être commit ou push.
 
 ### Exercice 1: Branch?
+
+Bon, maintenant, vous devriez chacun avoir une version différente du projet. (si ce n'est pas le cas, appellez-moi)
+Votre patron, apres avoir fait tester votre code et avoir validé les modifications, vous demande de push chaqu'un votre code sur une branche séparée de master portant un nom révélant (chaqu'un a développé une feature, un nom en rapport avec la-dite feature est donc une bonne idée)
+Tip: vous allez avoir besoin de minimum 6 commandes pour cela (incluant add, commit et push)
+Montrez-moi tout ça une fois fait, je viendrai fusionner vos codes.
+
+### Exercice 2: End of a ~world~ feature
+
+Après avoir fait fusionner vos 2 codes par le gitMaster (celui/celle qui gère les repo git de la boîte), votre patron vous demande de supprimer vos branches respectives.
 
 ## Lexique des commandes
 
